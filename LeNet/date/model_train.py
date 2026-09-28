@@ -60,6 +60,8 @@ def train_model_process(model,train_dataloader,val_dataloader,num_epochs):
         val_num = 0
 
         for step,(b_x,b_y) in enumerate(train_dataloader):
+            # 特征
+            # 标签
             b_x = b_x.to(device)
             b_y = b_y.to(device)
 
